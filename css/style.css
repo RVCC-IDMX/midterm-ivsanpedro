@@ -1,19 +1,82 @@
 /* Styles for Mobile Site */
 
 /* Header & Hero */
-body{
+h1{
+    font-size: 4rem;
+    padding: 10px;
+    border: 1rem double #96887E;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    margin: 25px;
+}
+
+h2{
+    font-size:3rem;
     text-align:center;
+}
+
+h3{
+    font-size:1.5rem;
+    text-align:center;
+}
+
+body{
     background-color: #79E4EB;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #423E3A;
+    font-size: 20px;
 }
+
+p{
+    font-size: 22.5px;
+}
+
+#projects img{
+    max-width:100%;
+    border: 5px solid #25CCEF;
+    box-shadow: 6px 6px 6px black;
+    margin: 5em;
+}
+
+#projects{
+    border: 1rem solid #96887E;
+    box-shadow:5px 5px 5px black;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background-color: #EBA678;
+    margin: 10px;
+}
+
+#project{
+    display: inline-block;
+}
+
+#hero{
+    margin-bottom:2rem;
+    background-color: #EBA678;
+    padding: 20px;
+    border: 1rem solid #96887E;
+    box-shadow:5px 5px 5px black;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+#hero div{
+    max-width: 60%;
+    columns: 20rem;
+}
+
 
 /* Projects */
 
 /* Reviews */
 
 /* Footer */
-
+#footer{
+    font-size: 100px;
+}
 
 /* Media state for Desktop site */
 @media (min-width: 1000px) {
@@ -25,5 +88,7 @@ body{
     /* Reviews */
 
     /* Footer */
-
+#footer{
+    font-size: 1em;
+}
 }
