@@ -1,6 +1,12 @@
 /* Styles for Mobile Site */
 
 /* Header & Hero */
+body{
+    text-align:center;
+    background-color: #79E4EB;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #423E3A;
+}
 
 /* Projects */
 
