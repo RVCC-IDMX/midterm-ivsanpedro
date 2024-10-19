@@ -51,6 +51,15 @@ p{
     columns: 20rem;
 }
 
+#hero img{
+    border: 15px solid #516C6E;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border-top-left-radius: 7px;
+    box-shadow: 10px 10px 10px 10px;
+}
+
 
 /* Projects */
 #projects img{
